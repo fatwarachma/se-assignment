@@ -1,0 +1,22 @@
+START
+Open App
+    IF Borrowing book is yes
+        THEN
+        Search book
+        Choose book
+            IF book is match
+                THEN
+                Loan approved by officer
+            ELSE
+                Search book
+        Book delivered
+        Book arrives in destination
+    ELSE
+        IF Return books is yes
+            THEN
+            Confirm return to officer
+            Waiting for courrier
+            Give book to courrier
+            Book return to library
+        ELSE
+FINISH
